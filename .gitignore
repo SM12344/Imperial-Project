@@ -1,0 +1,22 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large/generated data artifacts
+data/
+outputs/
+models/
+
+# Experiment by-products
+catboost_info/
+
+# Report artifacts are kept outside this code-only repository.
+report/
